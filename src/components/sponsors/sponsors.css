@@ -54,7 +54,7 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    bottom: 1em;
+    bottom: 3em;
 }
 
 @media screen and (max-width: 1100px) {

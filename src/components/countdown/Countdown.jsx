@@ -4,6 +4,7 @@ import "./countdown.css"
 
 
 const Countdown = () => {
+  const [timerMonths, setTimerMonths] = useState('00');
   const [timerDays, setTimerDays] = useState('00');
   const [timerHours, setTimerHours] = useState('00');
   const [timerMinutes, setTimerMinutes] = useState('00');
@@ -15,7 +16,10 @@ const Countdown = () => {
     const countdownDate = new Date('September 30, 2022 00:00:00').getTime();
     interval = setInterval(() => {
        const now = new Date().getTime();
+      //  var countdownToMonth = new Date().getMonth();
+      //  const monthdistance = countdownDate - countdownToMonth;
        const distance = countdownDate - now;
+       const months = Math.floor(distance / (1000 * 60 * 60 * 24 * 7 * 4));
        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
        const hours = Math.floor((distance % (1000 * 60 * 60 * 24) /(1000 * 60 * 60)));
        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -26,6 +30,7 @@ const Countdown = () => {
           clearInterval(interval.current);
        } else {
            //update our time
+           setTimerMonths(months);
            setTimerDays(days);
            setTimerHours(hours);
            setTimerMinutes(minutes);
@@ -48,7 +53,7 @@ const Countdown = () => {
             <h3>COUNTDOWN TO LIFE!</h3>
         </div>
         <div className='life__countdown-count'>
-            <Timer number='5' time='Months' />
+            <Timer number={timerMonths} time='Months' />
             <Timer number={timerDays} time='Days'  />
             <Timer number={timerHours} time='Hours' />
             <Timer number={timerMinutes} time='Minutes' />

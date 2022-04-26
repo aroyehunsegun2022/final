@@ -22,8 +22,14 @@
 }
 
 .er__sponsors-list {
-    margin-top: 2rem;
+    margin-top: -10rem;
     margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .er__sponsors-list p {

@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className='e__navbar'>
         <div className='e__navbar-links_logo'>
-            <img src={logo} alt='logo' />
+            <a href="/"><img src={logo} alt='logo' /></a>
         </div>
         {/* {toggleMenu && (
         <div className='e__navbar-links_container'>

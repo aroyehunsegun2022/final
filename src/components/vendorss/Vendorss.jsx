@@ -6,14 +6,15 @@ const Vendorss = (props) => {
   return (
     <div className='er__sponsors'>
         <h4>{props.title}</h4>
-        <div className='er__sponsors-list'>
-            <p><CircleIcon sx={{ fontSize: 12 }} /> {props.list1}</p>
-            <p><CircleIcon sx={{ fontSize: 12 }} /> {props.list2}</p>
-            <p><CircleIcon sx={{ fontSize: 12 }} /> {props.list3}</p>
-            <p><CircleIcon sx={{ fontSize: 12 }} /> {props.list4}</p>
-            <p><CircleIcon sx={{ fontSize: 12 }} /> {props.list5}</p>
+        <div className='er__sponsors-list2'>
+            <p>{props.list1}</p>
+            <p>{props.list2}</p>
+            <p>{props.list3}</p>
+            <p>{props.list4}</p>
+            <p>{props.list5}</p>
         </div>
-       <a href='https://docs.google.com/forms/d/e/1FAIpQLSdsoQcGspmd0kVKqUIkldqocFFjIOL1uU63F9a6d9R3nXTLrQ/viewform?embedded=true' className='linkk'>Partner</a>
+        <p class="last">{props.last}</p>
+       <a href='https://docs.google.com/forms/d/e/1FAIpQLSdsoQcGspmd0kVKqUIkldqocFFjIOL1uU63F9a6d9R3nXTLrQ/viewform?embedded=true' className='linkk'>Register</a>
     </div>
   ) 
 }
