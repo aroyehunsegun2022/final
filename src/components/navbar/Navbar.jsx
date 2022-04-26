@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { RiLayoutGridFill, RiCloseCircleFill } from "react-icons/ri"
 // import { AiFillAppstore } from "react-icons/ai";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/Lifelogo.png"
 // import whitelife from "../../assets/whitelife.jpg"
 import "./navbar.css"
 
