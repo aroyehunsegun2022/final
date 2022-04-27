@@ -7,7 +7,7 @@
     position: absolute !important;
     width: 100% !important;
     top: 0 !important;
- }
+}
 
 .car-img {
     width: 100vw;
@@ -17,9 +17,6 @@
     /* background-color: rgba(38, 38, 38, 0.57); */
     /* mix-blend-mode: exclusion; */
 }
-
-
-
 
 .car-content {
     display: flex;
@@ -32,7 +29,6 @@
     bottom: 20%;
     /* display: flex;
     justify-content: center; */
-    
 }
 
 .car-content h1 {
@@ -69,7 +65,7 @@
     cursor: pointer!important;
 }
 
-.expe_life{
+.expe_life {
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -81,7 +77,7 @@
     bottom: 5%;
 }
 
-.expe_life a{
+.expe_life a {
     font-family: nunito-semibold;
     font-style: normal;
     font-weight: 600;
@@ -92,9 +88,8 @@
     background: #F9175B;
     border-radius: 30px;
     padding: 10px 38px;
-position: relative;
+    position: relative;
 }
-
 
 .main {
     position: relative;
@@ -108,13 +103,10 @@ position: relative;
 }
 
 @media screen and (max-width: 2000px) {
-    .expe_life{
+    .expe_life {
         top: 640px;
     }
-    
 }
-
-
 
 @media screen and (max-width: 1100px) {
     .car-img {
@@ -132,12 +124,9 @@ position: relative;
         font-size: 13px;
         cursor: pointer;
     }
-    .expe_life{
+    .expe_life {
         top: 500px;
     }
-    
-
-
 }
 
 @media screen and (max-width: 800px) {
@@ -156,18 +145,19 @@ position: relative;
         width: 100%;
         object-fit: cover;
     }
-    .expe_life{
+    .expe_life {
         top: 480px;
     }
-    
 }
 
 @media screen and (max-width: 500px) {
+    .car-content {
+        position: absolute;
+        bottom: 30%;
+    }
     .car-content h1 {
         font-size: 35px;
         line-height: 50px;
-        
-    
     }
     .car-content p {
         font-size: 17px;
@@ -177,15 +167,11 @@ position: relative;
         font-size: 12px;
         padding: 8px 29px;
     }
-    .expe_life{
+    .expe_life {
         top: 500px;
     }
-    .life__carousel{
-    height: 600px;
-    margin-bottom: 50px;
+    .life__carousel {
+        height: 600px;
+        margin-bottom: 50px;
+    }
 }
-
-    
-}
-
-

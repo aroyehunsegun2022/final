@@ -20,7 +20,7 @@ const Sponsors = (props) => {
             <li>{props.list7}</li>
           </ul>
         </div>
-        <p class="last">{props.last}</p>
+        <p class="last2">{props.last}</p>
        <a href='https://docs.google.com/forms/d/e/1FAIpQLSf-g85wcT2g3NuMRZ8KIbyas8MKiIhfK3ET2Agggx3cnqaCkA/viewform?embedded=true' className='linkk'>Register</a>
     </div>
   )

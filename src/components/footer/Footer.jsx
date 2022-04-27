@@ -16,8 +16,12 @@ const Footer = () => {
             <p><Link className='link' to="/contactus">Contact</Link></p> */}
         </div>
         <div className='socials'>
-            <Link className='link' to='/'><AiFillInstagram size={21} /></Link>
-            <Link className='link' to='/'><AiFillTwitterCircle size={21} /></Link>
+            {/* <Link className='link' to='
+'></Link></a> */}
+<a href="https://instagram.com/enjoylife.fest?igshid=YmMyMTA2M2Y=" style={{ color : "white",paddingRight: "20px" }}><AiFillInstagram size={21} /></a>
+            {/* <Link className='link' to='
+'></Link> */}
+<a href="https://twitter.com/enjoylifefest?s=11&t=KyvQrGszN5muwy1_9Lbfdw" style={{ color : "white" }}><AiFillTwitterCircle size={21} /></a>
         </div>
     </div>
   )

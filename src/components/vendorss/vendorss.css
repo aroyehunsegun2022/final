@@ -66,6 +66,12 @@
     width: 80%;
 }
 
+.er__sponsors .last2 {
+    position: absolute;
+    bottom: 10em;
+    width: 80%;
+}
+
 .er__sponsors-list ul {
     margin-right: 2em;
 }
@@ -157,6 +163,11 @@
         padding: 5px 28px;
     }
     .er__sponsors .last {
+        position: absolute;
+        bottom: 20em;
+        width: 80%;
+    }
+    .er__sponsors .last2 {
         position: absolute;
         bottom: 6em;
         width: 80%;
