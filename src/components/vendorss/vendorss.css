@@ -139,13 +139,13 @@
     .er__sponsors {
         padding: 1.5rem 1rem;
         width: 320px;
-        height: 450px;
+        height: 1700px;
     }
     .er__sponsors h4 {
         font-size: 18px;
     }
     .er__sponsors-list {
-        margin-top: 0.8rem;
+        margin-top: 25rem;
         margin-bottom: 1rem;
     }
     .er__sponsors-list p {
@@ -155,5 +155,10 @@
     .linkk {
         font-size: 13px;
         padding: 5px 28px;
+    }
+    .er__sponsors .last {
+        position: absolute;
+        bottom: 6em;
+        width: 80%;
     }
 }
